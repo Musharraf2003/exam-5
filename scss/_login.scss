@@ -1,0 +1,105 @@
+@import "reset";
+
+body{
+    height: 100vh;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+main{
+    max-width: 355px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    h2{
+        color: #151E27;
+        font-size: 36px;
+        font-style: italic;
+        line-height: 36px; 
+        text-align: center;
+    }
+    p{
+        color: #000;
+        font-size: 14px;
+        margin-top: 5px;
+        text-align: center;
+        margin-bottom: 45px;
+        span{
+            color: #3665F3;
+            text-decoration-line: underline;
+        }
+    }
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    border: none;
+}
+
+.email-login, .password-login{
+    width: 312px;
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid #8F8F8F;
+    background: #F7F7F7;
+    ::placeholder{
+        color: #191919;
+    }
+}
+
+.continue-btn{
+    width: 355px;
+    border-radius: 20px;
+    border: 1px solid #3665F3;
+    background: #3665F3;
+    padding: 15px 0px 13px 0px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 22.4px;
+}
+
+.btn-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 24px;
+    .button1{
+        border-radius: 24px;
+        background: #4267B2;
+        color: #FFF;
+        font-size: 16px;
+        font-style: italic;
+        display: flex;
+        align-items: center; 
+        gap: 43px;
+        border: none;
+    }
+    .button2{
+        border-radius: 24px;
+        background: #FFF;
+        color: #444;
+        font-size: 16px;
+        font-style: italic;
+        display: flex;
+        align-items: center; 
+        gap: 43px;
+        border: 1px solid #888;
+        padding: 14px 89.566px 13px 14px;
+    }
+    .button3{
+        border-radius: 24px;
+        background: #FFF;
+        color: #444;
+        font-size: 16px;
+        font-style: italic;
+        display: flex;
+        align-items: center; 
+        gap: 43px;
+        border: 1px solid #888;
+        padding: 3px 97.8px 14px 3px;
+    }
+}

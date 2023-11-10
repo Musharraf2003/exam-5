@@ -1,0 +1,55 @@
+@import "reset";
+
+.one-item-presentation{
+    margin-top: 100px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.item-img{
+    width: 400px;
+    height: 700px;
+}
+
+.item-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.item-title{
+    font-size: 20px;
+    width: 600px;
+}
+
+.price-item{
+    font-size: 20px;
+}
+
+.btn-wrappers-item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    :first-child{
+        color: #fff;
+        height: 40px;
+        border: none;
+        background-color: rgba(6, 84, 186, 1);
+        border-radius: 25px;
+    }
+    :nth-child(2){
+        color: #fff;
+        height: 40px;
+        border: none;
+        background-color: rgba(6, 84, 186, 1);
+        border-radius: 25px;
+    }
+    :last-child{
+        height: 40px;
+        border-radius: 25px;
+        background-color: #fff;
+        border: 1px solid rgba(6, 84, 186, 1);
+    }
+}
